@@ -19,7 +19,7 @@ text-decoration: none;
     border: 1px solid rgb(36, 36, 36);
     background-color: rgb(29, 29, 29);
     width: 800px;
-    height: 680px;
+    height: 800px;
     margin-bottom: 20px;
 }
 .col-26{
@@ -116,18 +116,38 @@ text-decoration: none;
 .thanhngang{
     margin-left: 5px;
     width: 780px;
-    height: 20px;
+    height: 150px;
     position: absolute;
     top: 550px;
     border: 1px solid black;
     background-color: rgb(51, 51, 51);
 }
 .thanhbu{
+    margin-bottom: 10px;
     margin-left: 5px;
     width: 780px;
     height: 150px;
     position: absolute;
-    top: 590px;
+    top: 730px;
     border: 1px solid black;
     background-color: rgb(51, 51, 51);
 }
+table{ 
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    width: 70%;  
+    height: 70%;  
+    text-align: center;
+    margin: 10px;
+    
+}
+    th{border: 1px solid black;
+        border-radius: 5px 5px;}
+    td{border: 1px solid black;
+        border-radius: 5px;}
+    tr:first-child{
+        background-color: rgb(255, 102, 0);    }
+    tr:nth-child(2){
+        background-color: rgb(255, 255, 255);           
+}
+tr:nth-child(3){  background-color: rgb(241, 145, 81);   }
